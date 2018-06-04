@@ -1,0 +1,11 @@
+<h2>{{title}}</h2>
+<p>
+  {{text}}
+</p>
+<ul class="gallery">
+  <li *ngFor="let item of gallery">
+      <img src="{{item.thumbnailUrl}}">
+  </li>
+</ul>
+
+<div class="btn btn__loadmore">Load more</div>

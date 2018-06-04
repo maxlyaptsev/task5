@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+.content {
+    width: 1200px;
+    margin: 0 auto;
+}
+.gallery {
+    margin: 20px 0;
+    padding: 0;
+}
+.gallery li {
+    list-style: none;
+    display: inline-block;
+    height: 150px;
+}
+.btn {
+    cursor: pointer;
+    width: 100px;
+    text-align: center;
+    padding: 10px;    
+}
+.btn__loadmore {
+    margin: 0 auto;
+    background-color: #d4d7da;
+}
